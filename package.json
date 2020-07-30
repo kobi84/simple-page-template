@@ -12,8 +12,8 @@
     "prettier-check": "node_modules/prettier/bin-prettier.js --check .",
     "prettier": "node_modules/prettier/bin-prettier.js --write .",
     "eslint": "node_modules/eslint/bin/eslint.js .",
-    "stylelint": "node_modules/stylelint/bin/stylelint.js \"assets/**/*.scss\"",
-    "a11y": "node_modules/a11y/cli.js './*.html'"
+    "stylelint": "node_modules/stylelint/bin/stylelint.js \"page/assets/**/*.scss\"",
+    "a11y": "node_modules/a11y/cli.js 'page/*.html'"
   },
   "husky": {
     "hooks": {
