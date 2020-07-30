@@ -6,15 +6,16 @@ It has build in linters, husky pre commit hook and script for building and live 
 ## Files and folders structure
 
 ```bash
-├── ./assets
-│   ├── ./assets/css #External styles
-│   ├── ./assets/fonts #Font files folder
-│   ├── ./assets/img #Dir for images
-│   ├── ./assets/scripts #JS files
-│   │   └── ./assets/scripts/main.js
-│   └── ./assets/scss #Internal styles
-│       └── ./assets/scss/style.scss #Default style for page
-├── ./index.html #Starting point for page
+├── ./page
+│   ├── ./page/assets
+│   │   ├── ./page/assets/css #External styles
+│   │   ├── ./page/assets/fonts #Font files folder
+│   │   ├── ./page/assets/img #Dir for images
+│   │   ├── ./page/assets/scripts #JS files
+│   │   │   └── ./page/assets/scripts/main.js
+│   │   └── ./page/assets/scss #Internal styles
+│   │       └── ./page/assets/scss/style.scss
+│   └── ./page/index.html #Starting point for page
 ```
 
 ## Basic commands
